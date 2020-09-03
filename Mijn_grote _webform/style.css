@@ -1,0 +1,124 @@
+body {
+    background-color: #b9b2bf;
+    color: #22172b;
+    font-family: 'Oswald', sans-serif; 
+}
+h1.black_border {
+    color: #ffffff;
+
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+main, header, footer {
+    border: 5px groove #9180ad;
+    width: 650px;
+    margin: 15px auto;
+    padding: 5px 20px;
+}
+header {
+    text-align: center;
+}
+.black_border {
+    background-image: url(https://images.hdqwalls.com/wallpapers/skull-tiles-background-img.jpg);
+    border: 5px dotted #f09400;
+    padding: 10px;
+}
+a {
+    color: #22172b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f09400;
+}
+.footer_menu li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    width: 60px;
+    margin: 1%;
+    padding: 2%;
+    background-color: #22172b;
+    border: 3px ridge #9180ad;
+}
+.footer_menu li:hover {
+    color: #ffffff;
+    background-color: #f09400;
+}
+.footer_menu a {
+    color: #ffffff;
+}
+
+/* mobile versie */
+@media (min-width: 300px) {
+
+    main, header, footer {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 2%;
+        padding: 1% 5%;
+    }
+    h1.black_border {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .black_border {
+        background-image: url(https://images.hdqwalls.com/wallpapers/skull-tiles-background-img.jpg);
+        border: 2% dotted #f09400;
+        padding: 3%;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    img {
+        width: 80%;
+        max-width: 600px;
+        margin: 5%;
+    }
+}
+
+/* Desktop versie */
+
+@media (min-width: 1024px) {
+
+    main, header, footer {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2%;
+        padding: 2%;
+    }
+    body {
+        background-color: #b69ccc;
+        color: #381952;
+    }
+
+    h1.black_border {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .black_border {
+        background-image: url(https://images.hdqwalls.com/wallpapers/skull-tiles-background-img.jpg);
+        border: 2% dotted #f09400;
+        padding: 3%;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+    img {
+       width: 40%;
+    }
+    .footer_menu li {
+        width: 15%;
+        margin: 2%;
+        padding: 2%;
+        background-color: #22172b;
+        border: 3px ridge #9180ad;
+    }
+}

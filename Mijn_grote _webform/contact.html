@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact Us </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="black_border"> Black Cult Clothing </h1>
+    </header>
+    <main>
+        <p> If you have any questions, or just want to say hi, just fill out the form below and we'll get right back to
+            you.</p>
+        <!--Naam, email, textarea and submit-->
+        <form class="contact_form" name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>
+                    <strong> Name: </strong><input type="text" name="name" placeholder="Enter your name">
+                </label>
+            </p>
+            <p>
+                <label> <strong>Email: </strong><input type="email" name="email" placeholder="Enter your email"></label>
+            </p>
+            <p>
+                <label>
+                    <strong> Phone: </strong><input type="number" name="phone" placeholder="Enter your number">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <strong> Age: </strong><input type="number" name="age" step="1" min="1" max="200">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <strong> Birth Date: </strong><input type="date" name="birthdate">
+                </label>
+            </p>
+            <p> <strong> Gender:</strong> <br>
+                <label>
+                    Male<input type="radio" name="gender" value="Male">
+                </label>
+                <label>
+                    Female<input type="radio" name="gender" value="Female">
+                </label>
+            </p>
+            <p>
+                <strong> Favorite Cuisine: </strong> <br>
+                <label> French
+                    <input type="checkbox" name="favcuisine" value="French">
+                </label>
+                <label>
+                    Italian<input type="checkbox" name="favcuisine" value="Italian">
+                </label>
+                <label>
+                    Spanish<input type="checkbox" name="favcuisine" value="Spanish">
+                </label>
+                <label>
+                    Arabic<input type="checkbox" name="favcuisine" value="Arabic">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <strong> Favorite Color: </strong><input type="color" name="color">
+                </label>
+            </p>
+            <p>
+                <label> <strong>Biography:</strong><textarea name="biography" cols="30" rows="10"
+                        placeholder="Write your biography here"></textarea></label>
+            </p>
+            <p>
+                <label>
+                    <strong> Upload Your Favorite Recipe: </strong><input type="file" name="recipe">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <strong> Website Url </strong><input type="url" name="website">
+                </label>
+            </p>
+            <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <nav class="footer_menu">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
